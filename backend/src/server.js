@@ -3,7 +3,7 @@ import cors from 'cors';
 import githubRoutes from './routes/githubRoutes.js';
 
 const app = express();
-const PORT = process.env.PORT || 5000;
+const PORT = https://statify-deploy-frontend.onrender.com;
 
 app.use(cors());
 app.use('/api', githubRoutes);
